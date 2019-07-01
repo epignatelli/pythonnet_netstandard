@@ -3,18 +3,17 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Python.Runtime.NETStandard</AssemblyName>
-    <Version>3.7.0</Version>
+    <Version>3.6.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseUrl>http://pythonnet.github.io/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/henon/pythonnet_netstandard</PackageProjectUrl>
-    <Description>Python for .NET compiled against .Net Standard 2.0 and CPython 3.7
-</Description>
+    <Description>Python for .NET compiled against .Net Standard 2.0 and CPython 3.6</Description>
     <Copyright>2019</Copyright>
     <Authors>Meinrad Recheis, Python for .NET Team</Authors>
     <Company />
     <RepositoryUrl>https://github.com/henon/pythonnet_netstandard</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
-    <PackageTags>Python, pythonnet,</PackageTags>
+    <PackageTags>Python, pythonnet, NETStandard</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

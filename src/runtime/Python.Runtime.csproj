@@ -3,11 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Python.Runtime.NETStandard</AssemblyName>
-    <Version>3.7.0</Version>
+    <Version>3.5.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseUrl>http://pythonnet.github.io/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/henon/pythonnet_netstandard</PackageProjectUrl>
-    <Description>Python for .NET compiled against .Net Standard 2.0 and CPython 3.7
+    <Description>Python for .NET compiled against .Net Standard 2.0 and CPython 3.5
 </Description>
     <Copyright>2019</Copyright>
     <Authors>Meinrad Recheis, Python for .NET Team</Authors>
@@ -15,6 +15,7 @@
     <RepositoryUrl>https://github.com/henon/pythonnet_netstandard</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
     <PackageTags>Python, pythonnet,</PackageTags>
+    <PackageIconUrl></PackageIconUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -23,8 +24,9 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>TRACE;PYTHON3;PYTHON37;UCS2</DefineConstants>
+    <DefineConstants>TRACE;PYTHON3;PYTHON35;UCS2</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <WarningLevel>0</WarningLevel>
   </PropertyGroup>
 
   <ItemGroup>

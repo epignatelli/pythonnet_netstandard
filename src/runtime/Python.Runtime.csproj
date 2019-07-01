@@ -13,7 +13,9 @@
     <Company />
     <RepositoryUrl>https://github.com/henon/pythonnet_netstandard</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
-    <PackageTags>Python, pythonnet, NETStandard</PackageTags>
+    <PackageTags>Python, pythonnet, NETStandard, Mono</PackageTags>
+    <PackageId>Python.Runtime.Mono</PackageId>
+    <Product>Python.Runtime.Mono</Product>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -22,7 +24,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DefineConstants>TRACE;PYTHON3;PYTHON37;UCS2</DefineConstants>
+    <DefineConstants>TRACE;PYTHON3;PYTHON36;UCS4;MONO_LINUX;PYTHON_WITH_PYMALLOC</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
